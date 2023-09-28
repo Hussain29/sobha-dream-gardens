@@ -1,17 +1,16 @@
 import { type Config } from "tailwindcss";
 
 export default {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {
-			colors:{
-				primary: "#BF7301",
-				secondary: "#F9E9D2"
+	content: ["./src/**/*.{js,ts,jsx,tsx}"],
+	theme: {
+		extend: {
+			colors: {
+				primary: "#F2CD88",
 			},
 			fontSize: {
-				regular: "14px"
-			}
+				regular: "14px",
+			},
 		},
-  },
-  plugins: [],
+	},
+	plugins: [],
 } satisfies Config;
