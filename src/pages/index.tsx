@@ -196,7 +196,7 @@ export default function Home() {
 
       <nav className="fixed top-0 z-[9999999999999] flex w-full items-center justify-between bg-[#FFFFFF] p-2  text-regular max-md:bg-white max-md:py-2">
         <div>
-          <img className="h-16" src="/logo.webp" alt="" />
+          <img className="h-20" src="/logo.svg" alt="" />
         </div>
         <div className="flex items-center justify-center lg:hidden">
           <div>
@@ -378,13 +378,13 @@ export default function Home() {
       >
         <div className="z-[999] flex h-full w-3/5 flex-col justify-center gap-4 text-white max-md:w-full max-md:items-center max-md:px-3">
           <h1 className="text-[52px] font-bold max-md:text-center max-md:text-[32px] max-sm:text-3xl ">
-            Your Address Of Luxury
+            Discover your IKIGAI
           </h1>
           <h3 className="text-[21px] font-semibold max-md:text-center max-md:text-[19px]">
             Book Now to Avail Special Price Offers!
           </h3>
           <p className="w-3/4 text-regular font-extralight max-md:w-full max-md:text-center md:text-[19px]">
-            3 &amp; 4 BHK Luxury Flats <br /> 1.4 Cr Onwards
+            2 BHK Flats <br /> 86 Lakhs Onwards
           </p>
           <div className="max-md:flex max-md:w-full max-md:items-center max-md:justify-center">
             <button
@@ -429,49 +429,35 @@ export default function Home() {
           <div className="h-1 w-44 bg-primary"></div>
           <h3 className="text-4xl font-bold">Overview</h3>
           <p className="text-regular font-extralight max-md:w-1/2 max-sm:w-full">
-            Lodha is India’s largest real estate developer by residential sales
-            value for the financial years 2014 to 2020 and the second largest
-            developer by area delivered*. The company has clocked sales of
-            approximately INR 6,570 crores with gross collections of over
-            approximately INR 8,190 crores for FY 19-20. For FY 19-20, the brand
-            recorded a completed developable area of 15.65 Million sq ft.*As per
-            the report titled “Real Estate Industry Report” dated January 2021,
-            issued by Anarock Property Consultant Private Limited
+            Designed around the principles of Zen balanced life, SOBHA Dream
+            Gardens allows you to discover your Ikigai through Zen living.
+            Here’s a place that will let you be one with nature, and close to
+            everything that matters.
           </p>
-          <div className="grid grid-cols-2 place-content-start max-md:text-xs md:grid-cols-4">
+          <div className="grid grid-cols-2 place-content-start gap-y-5 max-md:text-xs md:grid-cols-3">
             <div className="grid place-items-center text-center">
-              <img src="/mall.svg" alt="" className="h-8" />
-              <p>
-                Elements Mall
-                <br />
-                (200 Mts)
-              </p>
+              <img src="/meditation.png" alt="" className="h-8" />
+              <p>Meditation Deck</p>
             </div>
             <div className="grid place-items-center text-center">
-              <img src="/metro.svg" alt="" className="h-8" />
-              <p>
-                Nagawara
-                <br />
-                Metro Station
-                <br />
-                (400 Mts)
-              </p>
+              <img src="/bamboo-walk.png" alt="" className="h-8" />
+              <p>Bamboo Walk</p>
             </div>
             <div className="grid place-items-center text-center">
-              <img src="/office.svg" alt="" className="h-8" />
-              <p>
-                Inside Manyata
-                <br />
-                Tech Park
-              </p>
+              <img src="/clubhouse.png" alt="" className="h-8" />
+              <p>Clubhouse</p>
             </div>
             <div className="grid place-items-center text-center">
-              <img src="/clubhouse.svg" alt="" className="h-8" />
-              <p>
-                5000 Sqft
-                <br />
-                Clubhouse
-              </p>
+              <img src="/swimming.png" alt="" className="h-8" />
+              <p>Swimming Pool</p>
+            </div>
+            <div className="grid place-items-center text-center">
+              <img src="/co-working-space.png" alt="" className="h-8" />
+              <p>Co-working Space</p>
+            </div>
+            <div className="grid place-items-center text-center">
+              <img src="/tennis.png" alt="" className="h-8" />
+              <p>Tennis Court</p>
             </div>
           </div>
         </div>
@@ -871,7 +857,7 @@ export default function Home() {
 
       <section
         id="tour"
-        className="relative flex w-full justify-center bg-[#F5F5F5] py-32"
+        className="relative flex hidden w-full justify-center bg-[#F5F5F5] py-32"
       >
         <div className="absolute -top-16 left-0 flex justify-end">
           <img
@@ -963,7 +949,7 @@ export default function Home() {
           </div>
           <div className="max-md:translate-0 w-1/2 -translate-y-16 max-md:w-full max-md:px-2">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7773.598729156945!2d77.62051469680607!3d13.048439338200492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176ddc662065%3A0x57b2874f9023bb8!2sEmbassy%20Manyata%20Business%20Park!5e0!3m2!1sen!2sin!4v1695336499086!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.05285557268!2d77.641657!3d13.098349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19261265aa95%3A0xcc6de8ac0fc6561f!2sSOBHA%20Dream%20Gardens%20(Residential%20Apartments%20in%20Thanisandra)!5e0!3m2!1sen!2sin!4v1695894815428!5m2!1sen!2sin"
               width="600"
               height="450"
               loading="lazy"
@@ -1036,7 +1022,7 @@ export default function Home() {
       <footer className="mt-16 bg-primary p-4">
         <div className="flex items-center justify-between px-3 max-md:flex-col max-md:items-center">
           <div>
-            <img className="w-[120px]" src="/logo.webp" alt="" />
+            <img className="w-[120px]" src="/logo.svg" alt="" />
             <div className="text-sm text-white">
               Near Manyata Tech Park,
               <br />
